@@ -16,7 +16,7 @@ namespace DemoBindingConObjetoDeNegocio_III
     {
         // public string Nombre { get; set; }
         
-        [ObservableProperty]
+        [ObservableProperty]       // Este atributo genera automáticamente la propiedad "Nombre".
         private string _nombre;
 
         //private string? _nombre;
@@ -40,7 +40,7 @@ namespace DemoBindingConObjetoDeNegocio_III
 
         // public int Edad { get; set; }
 
-        [ObservableProperty]
+        [ObservableProperty]     // Este atributo genera automáticamente la propiedad "Edad".
         private int _edad;
 
         //private int _edad;
