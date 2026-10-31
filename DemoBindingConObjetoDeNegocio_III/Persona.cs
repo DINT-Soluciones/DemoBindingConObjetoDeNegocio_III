@@ -17,7 +17,7 @@ namespace DemoBindingConObjetoDeNegocio_III
         // public string Nombre { get; set; }
         
         [ObservableProperty]
-        private string nombre;
+        private string _nombre;
 
         //private string? _nombre;
         //public string? Nombre
@@ -41,7 +41,7 @@ namespace DemoBindingConObjetoDeNegocio_III
         // public int Edad { get; set; }
 
         [ObservableProperty]
-        private int edad;
+        private int _edad;
 
         //private int _edad;
         //public int Edad
